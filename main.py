@@ -20,7 +20,7 @@ label_0.grid(row=0, column=0 , columnspan=2) # приветствие, опис�
 
 # метка 1-го вопроса
 label_1 = ttk.Label(text=f'{que.question_1}')
-label_1.grid(row=1, column=0, columnspan=2, sticky='w')
+label_1.grid(row=1, column=0, columnspan=2, sticky='w', padx=(5, 0))
 
 rad_butt_1_1 = ttk.Radiobutton(text=f'{que.answer_1_1}')
 rad_butt_1_1.grid(row=2, column=0, columnspan=2, sticky='w', padx=(10, 0))
@@ -31,7 +31,7 @@ rad_butt_1_3.grid(row=4, column=0, columnspan=2, sticky='w', padx=(10, 0))
 
 # метка 2-го вопроса
 label_2  = ttk.Label(text=f'{que.question_2}')
-label_2.grid(row=5, column=0, columnspan=2, sticky='w')
+label_2.grid(row=5, column=0, columnspan=2, sticky='w', padx=(5, 0))
 
 rad_butt_1_1 = ttk.Radiobutton(text=f'{que.answer_2_1}')
 rad_butt_1_1.grid(row=6, column=0, columnspan=2, sticky='w', padx=(10, 0))
@@ -42,7 +42,7 @@ rad_butt_1_3.grid(row=8, column=0, columnspan=2, sticky='w', padx=(10, 0))
 
 # метка 3-го вопроса
 label_3  = ttk.Label(text=f'{que.question_3}')
-label_3.grid(row=9, column=0, columnspan=2, sticky='w')
+label_3.grid(row=9, column=0, columnspan=2, sticky='w', padx=(5, 0))
 
 rad_butt_1_1 = ttk.Radiobutton(text=f'{que.answer_3_1}')
 rad_butt_1_1.grid(row=10, column=0, columnspan=2, sticky='w', padx=(10, 0))
@@ -53,7 +53,7 @@ rad_butt_1_3.grid(row=12, column=0, columnspan=2, sticky='w', padx=(10, 0))
 
 # метка 4-го вопроса
 label_4 = ttk.Label(text=f'{que.question_4}')
-label_4.grid(row=13, column=0, columnspan=2, sticky='w')
+label_4.grid(row=13, column=0, columnspan=2, sticky='w', padx=(5, 0))
 
 rad_butt_1_1 = ttk.Radiobutton(text=f'{que.answer_4_1}')
 rad_butt_1_1.grid(row=14, column=0, columnspan=2, sticky='w', padx=(10, 0))
@@ -64,7 +64,7 @@ rad_butt_1_3.grid(row=16, column=0, columnspan=2, sticky='w', padx=(10, 0))
 
 # метка 5-го вопроса
 label_5 = ttk.Label(text=f'{que.question_5}')
-label_5.grid(row=17, column=0, columnspan=2, sticky='w')
+label_5.grid(row=17, column=0, columnspan=2, sticky='w', padx=(5, 0))
 
 rad_butt_1_1 = ttk.Radiobutton(text=f'{que.answer_5_1}')
 rad_butt_1_1.grid(row=18, column=0, columnspan=2, sticky='w', padx=(10, 0))

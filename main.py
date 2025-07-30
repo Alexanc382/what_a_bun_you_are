@@ -2,6 +2,7 @@ from tkinter import *
 from tkinter import ttk
 import requests
 from io import  BytesIO
+import questions as que
 
 window = Tk()
 window.title('Какая ты булочка?')
@@ -16,39 +17,37 @@ window.geometry(f'600x600+{width_position}+{height_position}')
 
 label_0 = ttk.Label(text='hi')
 label_0.pack() # приветствие, описание для пользователя
-ttk.Radiobutton(text="1 вариант").pack()
-ttk.Radiobutton(text="2 вариант").pack()
-ttk.Radiobutton(text="3 вариант").pack()
+
 # метка 1-го вопроса
-label_1 = ttk.Label(text='1')
+label_1 = ttk.Label(text=f'{que.question_1}')
 label_1.pack()
-ttk.Radiobutton(text="1 вариант").pack()
-ttk.Radiobutton(text="2 вариант").pack()
-ttk.Radiobutton(text="3 вариант").pack()
+ttk.Radiobutton(text="").pack()
+ttk.Radiobutton(text="").pack()
+ttk.Radiobutton(text="").pack()
 # метка 2-го вопроса
-label_2  = ttk.Label(text='2')
+label_2  = ttk.Label(text=f'{que.question_2}')
 label_2.pack()
-ttk.Radiobutton(text="1 вариант").pack()
-ttk.Radiobutton(text="2 вариант").pack()
-ttk.Radiobutton(text="3 вариант").pack()
+ttk.Radiobutton(text="").pack()
+ttk.Radiobutton(text="").pack()
+ttk.Radiobutton(text="").pack()
 # метка 3-го вопроса
-label_3  = ttk.Label(text='3')
+label_3  = ttk.Label(text=f'{que.question_3}')
 label_3.pack()
-ttk.Radiobutton(text="1 вариант").pack()
-ttk.Radiobutton(text="2 вариант").pack()
-ttk.Radiobutton(text="3 вариант").pack()
+ttk.Radiobutton(text="").pack()
+ttk.Radiobutton(text="").pack()
+ttk.Radiobutton(text="").pack()
 # метка 4-го вопроса
-label_4 = ttk.Label(text='4')
+label_4 = ttk.Label(text=f'{que.question_4}')
 label_4.pack()
-ttk.Radiobutton(text="1 вариант").pack()
-ttk.Radiobutton(text="2 вариант").pack()
-ttk.Radiobutton(text="3 вариант").pack()
+ttk.Radiobutton(text="").pack()
+ttk.Radiobutton(text="").pack()
+ttk.Radiobutton(text="").pack()
 # метка 5-го вопроса
-label_5 = ttk.Label(text='5')
+label_5 = ttk.Label(text=f'{que.question_5}')
 label_5.pack()
-ttk.Radiobutton(text="1 вариант").pack()
-ttk.Radiobutton(text="2 вариант").pack()
-ttk.Radiobutton(text="3 вариант").pack()
+ttk.Radiobutton(text="").pack()
+ttk.Radiobutton(text="").pack()
+ttk.Radiobutton(text="").pack()
 
 #прогрессбар загрузки
 progress_bar = ttk.Progressbar(mode="determinate", length=300)

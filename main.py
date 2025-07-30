@@ -20,34 +20,59 @@ label_0.pack() # приветствие, описание для пользов�
 
 # метка 1-го вопроса
 label_1 = ttk.Label(text=f'{que.question_1}')
-label_1.pack()
-ttk.Radiobutton(text="").pack()
-ttk.Radiobutton(text="").pack()
-ttk.Radiobutton(text="").pack()
+label_1.pack(pady=8)
+
+rad_butt_1_1 = ttk.Radiobutton(text=f'{que.answer_1_1}')
+rad_butt_1_1.pack()
+rad_butt_1_2 = ttk.Radiobutton(text=f'{que.answer_1_2}')
+rad_butt_1_2.pack()
+rad_butt_1_3 = ttk.Radiobutton(text=f'{que.answer_1_3}')
+rad_butt_1_3.pack()
+
 # метка 2-го вопроса
 label_2  = ttk.Label(text=f'{que.question_2}')
-label_2.pack()
-ttk.Radiobutton(text="").pack()
-ttk.Radiobutton(text="").pack()
-ttk.Radiobutton(text="").pack()
+label_2.pack(pady=8)
+
+rad_butt_1_1 = ttk.Radiobutton(text=f'{que.answer_2_1}')
+rad_butt_1_1.pack()
+rad_butt_1_2 = ttk.Radiobutton(text=f'{que.answer_2_2}')
+rad_butt_1_2.pack()
+rad_butt_1_3 = ttk.Radiobutton(text=f'{que.answer_2_3}')
+rad_butt_1_3.pack()
+
 # метка 3-го вопроса
 label_3  = ttk.Label(text=f'{que.question_3}')
 label_3.pack()
-ttk.Radiobutton(text="").pack()
-ttk.Radiobutton(text="").pack()
-ttk.Radiobutton(text="").pack()
+
+rad_butt_1_1 = ttk.Radiobutton(text=f'{que.answer_3_1}')
+rad_butt_1_1.pack()
+rad_butt_1_2 = ttk.Radiobutton(text=f'{que.answer_3_2}')
+rad_butt_1_2.pack()
+rad_butt_1_3 = ttk.Radiobutton(text=f'{que.answer_3_3}')
+rad_butt_1_3.pack()
+
 # метка 4-го вопроса
 label_4 = ttk.Label(text=f'{que.question_4}')
-label_4.pack()
-ttk.Radiobutton(text="").pack()
-ttk.Radiobutton(text="").pack()
-ttk.Radiobutton(text="").pack()
+label_4.pack(pady=8)
+
+rad_butt_1_1 = ttk.Radiobutton(text=f'{que.answer_4_1}')
+rad_butt_1_1.pack()
+rad_butt_1_2 = ttk.Radiobutton(text=f'{que.answer_4_2}')
+rad_butt_1_2.pack()
+rad_butt_1_3 = ttk.Radiobutton(text=f'{que.answer_4_3}')
+rad_butt_1_3.pack()
+
 # метка 5-го вопроса
 label_5 = ttk.Label(text=f'{que.question_5}')
-label_5.pack()
-ttk.Radiobutton(text="").pack()
-ttk.Radiobutton(text="").pack()
-ttk.Radiobutton(text="").pack()
+label_5.pack(pady=8)
+
+rad_butt_1_1 = ttk.Radiobutton(text=f'{que.answer_5_1}')
+rad_butt_1_1.pack()
+rad_butt_1_2 = ttk.Radiobutton(text=f'{que.answer_5_2}')
+rad_butt_1_2.pack()
+rad_butt_1_3 = ttk.Radiobutton(text=f'{que.answer_5_3}')
+rad_butt_1_3.pack()
+
 
 #прогрессбар загрузки
 progress_bar = ttk.Progressbar(mode="determinate", length=300)
